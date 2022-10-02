@@ -1,0 +1,39 @@
+
+.title {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.author {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    margin: 10px auto;
+    display: block;
+}
+
+.grid {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 14px;
+    height: 14px;
+    border: solid black 1px;
+    
+}
+
+.blank {
+    background-color: white;
+}
+
+.occupied {
+    background-color: black;
+}
